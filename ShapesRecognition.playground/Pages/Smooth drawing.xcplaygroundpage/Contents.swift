@@ -1,8 +1,10 @@
-//: [Previous](@previous) | [Table of Contents](Table%20of%20Contents)
-
 import XCPlayground
 import UIKit
 /*:
+ [Table of Contents](Table%20of%20Contents)
+ 
+ # Smooth drawing.
+ 
  To start we will look at something simple, which is smooth drawing.
  
  Naive implementation of rendering user's freehand drawing is strait forward. We need to listen to touch events from view and construct the path appending lines to each subsequent point.
@@ -141,6 +143,4 @@ let viewController = DrawingViewController()
 XCPlaygroundPage.currentPage.needsIndefiniteExecution = true
 XCPlaygroundPage.currentPage.liveView = viewController
 viewController.drawingView.drawing = SmoothDrawing()
-
-
-//: [Table of Contents](Table%20of%20Contents)
+//: [Next: Curve preprocessing](@next) | [Table of Contents](Table%20of%20Contents)

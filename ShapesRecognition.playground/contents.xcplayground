@@ -3,5 +3,7 @@
     <pages>
         <page name='Table of Contents'/>
         <page name='Smooth drawing'/>
+        <page name='Curve preprocessing'/>
+        <page name='Douglas-Peucker algorithm'/>
     </pages>
 </playground>

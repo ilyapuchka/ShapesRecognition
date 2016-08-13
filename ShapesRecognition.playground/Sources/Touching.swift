@@ -16,7 +16,7 @@ public protocol Touching {
     func touchesCancelled(at point: CGPoint)
 }
 
-extension Drawing {
+extension Touching {
     public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         guard let touchPoint = touches.first?.locationInView(view) else { return }
         touchesBegan(at: touchPoint)

@@ -6,10 +6,10 @@
  ### Table of Contents
  
  * [Smooth drawing](Smooth%20drawing)
- * Curve preprocessing
+ * [Curve preprocessing](Curve%20preprocessing)
+    * [Douglas-Peucker algorithm](Douglas-Peucker%20algorithm)
  * Feature extraction
  * Shape decision
  
+ [Next: Smooth drawing](@next)
  */
-
-//: [Next](@next)
